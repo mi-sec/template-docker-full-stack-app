@@ -6,6 +6,10 @@ Template Nginx, Node.js Express API, Vue.js Application
 > Note: need help with submodules? [check this out](https://www.vogella.com/tutorials/GitSubmodules/article.html)
 
 ```
-git submodule init
-git submodule update
+# clone full-stack template
+git clone git@github.com:mi-sec/template-docker-full-stack-app.git
+cd template-docker-full-stack-app/
+
+# initialize api and ui submodules
+git submodule update --init
 ```
