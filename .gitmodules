@@ -1,0 +1,8 @@
+[submodule "app/api"]
+	path = app/api
+	url = git@github.com:mi-sec/template-api.git
+	branch = master
+[submodule "app/ui"]
+	path = app/ui
+	url = git@github.com:mi-sec/template-vue-dashboard.git
+	branch = master
