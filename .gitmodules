@@ -1,6 +1,6 @@
-[submodule "app1/ui"]
-	path = app1/ui
+[submodule "app/ui"]
+	path = app/ui
 	url = git@github.com:mi-sec/template-vue-dashboard.git
-[submodule "app1/api"]
-	path = app1/api
+[submodule "app/api"]
+	path = app/api
 	url = git@github.com:mi-sec/template-api.git
