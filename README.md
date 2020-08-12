@@ -31,11 +31,8 @@ the following applications are required to run in `development`:
 
 ```
 # clone full-stack template
-git clone git@github.com:mi-sec/template-docker-full-stack-app.git
+git clone --recursive git@github.com:mi-sec/template-docker-full-stack-app.git
 cd template-docker-full-stack-app/
-
-# initialize and pull api and ui submodules
-git submodule update --init
 ```
 
 ##### [development startup](#top)
@@ -53,6 +50,7 @@ git submodule update --init
 cd app/ui
 npm i
 npm run serve
+# access live ui at http://localhost:8080/
 ```
 
 ##### [api testing](#top)
@@ -69,10 +67,8 @@ npm test
 ./start.prod.sh
 ```
 
-application will be accessible at `http://localhost` by default
+ui will be accessible at `http://localhost` by default
 api will be accessible at `http://localhost/api/` by default
-
-
 
 ### [auxiliary](#top)
 
